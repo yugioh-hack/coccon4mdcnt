@@ -9,6 +9,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
 <div id="header-container" class="header-container">
   <div class="header-container-in<?php echo get_additional_header_container_classes(); ?>">
+    <?php get_template_part('tmp/navi'); ?>
     <header id="header" class="header<?php echo get_additional_header_classes(); ?> cf" itemscope itemtype="https://schema.org/WPHeader">
 
       <div id="header-in" class="header-in wrap cf" itemscope itemtype="https://schema.org/WebSite">
@@ -36,6 +37,6 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
     </header>
 
-    <?php get_template_part('tmp/navi'); ?>
+    <?php //get_template_part('tmp/navi'); ?>
   </div><!-- /.header-container-in -->
 </div><!-- /.header-container -->
